@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="exercicio.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="201.0" layoutY="478.0" onAction="#Calcular" prefHeight="25.0" prefWidth="95.0" text="Calcular" textFill="#12d7d7" />
+        <Label fx:id="label" layoutX="230.0" layoutY="51.0" minHeight="16" minWidth="69" prefHeight="25.0" prefWidth="69.0" text="Número:" />
+      <TextField fx:id="tfNumero" layoutX="326.0" layoutY="51.0" />
+      <Label fx:id="dobro" layoutX="46.0" layoutY="149.0" text="Dobro:" />
+      <Label fx:id="triplo" layoutX="46.0" layoutY="211.0" text="Triplo:" />
+      <Label fx:id="quadrado" layoutX="46.0" layoutY="272.0" text="Quadrado:" />
+      <Label fx:id="cubo" layoutX="46.0" layoutY="342.0" text="Cubo:" />
+      <TextField fx:id="tfdobro" layoutX="115.0" layoutY="145.0" />
+      <TextField fx:id="tftriplo" layoutX="115.0" layoutY="199.0" />
+      <TextField fx:id="tfquad" layoutX="115.0" layoutY="268.0" />
+      <TextField fx:id="tfcubo" layoutX="115.0" layoutY="338.0" />
+    </children>
+</AnchorPane>
